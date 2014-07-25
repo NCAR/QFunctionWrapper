@@ -10,9 +10,9 @@
 
 #include <QObject>
 
-/// @brief This class simply provides a wrapper for a static function so that
-/// it can be treated as a Qt slot. This class becomes obsolete with Qt 5,
-/// where signals can be connected directly to static functions.
+/// @brief This class simply provides a wrapper for a zero-argument static
+/// function so that it can be treated as a Qt slot. This class becomes obsolete
+/// with Qt 5, where signals can be connected directly to static functions.
 class QFunctionWrapper: public QObject {
     Q_OBJECT
 public slots:
