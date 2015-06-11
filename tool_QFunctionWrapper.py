@@ -1,5 +1,5 @@
 #
-# Rules to build QXmlRpcServerAbyss class and export it (and its header) as 
+# Rules to build QFunctionWrapper class and export it (and its header) as 
 # a tool
 #
 import os
