@@ -6,10 +6,10 @@ import os
 
 tools = Split("""
     doxygen
-    qt4
+    qt5
+    qtcore
 """)
 env = Environment(tools=['default'] + tools)
-env.EnableQt4Modules(['QtCore'])
 
 # The object file and header file live in this directory.
 tooldir = env.Dir('.').srcnode().abspath    # this directory
